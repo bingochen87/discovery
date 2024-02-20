@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
+	"github.com/bingochen87/discovery/conf"
+	"github.com/bingochen87/discovery/model"
 	"github.com/go-kratos/kratos/pkg/ecode"
 	log "github.com/go-kratos/kratos/pkg/log"
 	http "github.com/go-kratos/kratos/pkg/net/http/blademaster"

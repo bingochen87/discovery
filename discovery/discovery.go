@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/registry"
+	"github.com/bingochen87/discovery/conf"
+	"github.com/bingochen87/discovery/registry"
 	http "github.com/go-kratos/kratos/pkg/net/http/blademaster"
 )
 

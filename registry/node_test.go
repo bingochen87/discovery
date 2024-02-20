@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	dc "github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
+	dc "github.com/bingochen87/discovery/conf"
+	"github.com/bingochen87/discovery/model"
 	"github.com/go-kratos/kratos/pkg/ecode"
 	bm "github.com/go-kratos/kratos/pkg/net/http/blademaster"
 	"github.com/go-kratos/kratos/pkg/net/http/blademaster/binding"

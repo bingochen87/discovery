@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bilibili/discovery/model"
+	"github.com/bingochen87/discovery/model"
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 )
 

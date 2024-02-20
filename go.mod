@@ -1,4 +1,4 @@
-module github.com/bilibili/discovery
+module github.com/bingochen87/discovery
 
 go 1.19
 

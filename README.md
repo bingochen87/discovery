@@ -1,9 +1,9 @@
 # Discovery 
-[![Build Status](https://travis-ci.org/bilibili/discovery.svg?branch=master)](https://travis-ci.org/bilibili/discovery) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/bilibili/discovery)](https://goreportcard.com/report/github.com/bilibili/discovery)
-[![codecov](https://codecov.io/gh/Bilibili/discovery/branch/master/graph/badge.svg)](https://codecov.io/gh/Bilibili/discovery)
+[![Build Status](https://travis-ci.org/bingochen87/discovery.svg?branch=master)](https://travis-ci.org/bingochen87/discovery) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/bingochen87/discovery)](https://goreportcard.com/report/github.com/bingochen87/discovery)
+[![codecov](https://codecov.io/gh/bingochen87/discovery/branch/master/graph/badge.svg)](https://codecov.io/gh/bingochen87/discovery)
 
-Discovery is a based service that is production-ready and primarily used at [Bilibili](https://www.bilibili.com/) for locating services for the purpose of load balancing and failover of middle-tier servers.
+Discovery is a based service that is production-ready and primarily used at [bingochen87](https://www.bingochen87.com/) for locating services for the purpose of load balancing and failover of middle-tier servers.
 
 ## Quick Start
 
@@ -14,7 +14,7 @@ Discovery is a based service that is production-ready and primarily used at [Bil
 ### build
 ```shell
 cd $GOPATH/src
-git clone https://github.com/bilibili/discovery.git
+git clone https://github.com/bingochen87/discovery.git
 cd discovery/cmd/discovery
 go build
 ```
@@ -43,7 +43,7 @@ You can view the comments in `cmd/discovery/discovery.toml` to understand the me
 
 * [Introduction](doc/intro.md)
 * [Architecture](doc/arch.md)
-* [Practice in Bilibili](doc/practice.md)
+* [Practice in bingochen87](doc/practice.md)
 
 ## Feedback
 

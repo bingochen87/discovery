@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bilibili/discovery/model"
+	"github.com/bingochen87/discovery/model"
 
 	"github.com/go-kratos/kratos/pkg/ecode"
 	log "github.com/go-kratos/kratos/pkg/log"

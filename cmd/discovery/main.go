@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/discovery"
-	"github.com/bilibili/discovery/http"
+	"github.com/bingochen87/discovery/conf"
+	"github.com/bingochen87/discovery/discovery"
+	"github.com/bingochen87/discovery/http"
 	log "github.com/go-kratos/kratos/pkg/log"
 )
 

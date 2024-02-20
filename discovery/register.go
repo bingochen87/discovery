@@ -3,8 +3,8 @@ package discovery
 import (
 	"context"
 
-	"github.com/bilibili/discovery/model"
-	"github.com/bilibili/discovery/registry"
+	"github.com/bingochen87/discovery/model"
+	"github.com/bingochen87/discovery/registry"
 	"github.com/go-kratos/kratos/pkg/ecode"
 	log "github.com/go-kratos/kratos/pkg/log"
 )
