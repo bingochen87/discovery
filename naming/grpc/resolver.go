@@ -43,9 +43,9 @@ type Builder struct {
 // Build returns itself for Resolver, because it's both a builder and a resolver.
 func (b *Builder) Build(target resolver.Target, cc resolver.ClientConn, opts resolver.BuildOptions) (resolver.Resolver, error) {
 	// discovery://default/service.name?zone=sh001&cluster=c1&cluster=c2&cluster=c3
-	dsn := strings.SplitN(target.Endpoint, "?", 2)
+	dsn := strings.SplitN(target.Endpoint(), "?", 2)
 	if len(dsn) == 0 {
-		return nil, fmt.Errorf("grpc resolver: parse target.Endpoint(%s) failed! the endpoint is empty", target.Endpoint)
+		return nil, fmt.Errorf("grpc resolver: parse target.Endpoint(%s) failed! the endpoint is empty", target.Endpoint())
 	}
 	// parse params info
 	zone := os.Getenv("ZONE")
@@ -146,8 +146,8 @@ func (r *Resolver) newAddress(instances []*naming.Instance) {
 		}
 		totalWeight += weight
 		addr := resolver.Address{
-			Addr:       rpcAddr,
-			Type:       resolver.Backend,
+			Addr: rpcAddr,
+			//Type:       resolver.Backend,
 			ServerName: ins.AppID,
 			Metadata:   &MD{Weight: weight, Color: color},
 		}
